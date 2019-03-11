@@ -10,10 +10,9 @@
         console.log(chaîne);    
     }
     }
-    if (question == "non"){
+    else if (question == "non"){
         alert("Rohhhh, j'ai trop de patates maintenant");
     }
-
     else {
         alert("Je vous sens comme tiraillé");
     }

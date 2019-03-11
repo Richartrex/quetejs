@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+<body>
+    <script type="text/javascript">    
+    let question = prompt("Hey mon ami ! Tu aimes ça les patates ?", "oui ou non"); 
+    if (question == "oui"){    
+    let chaîne = "#";
+    for(let i = 0; i < 7; i++, chaîne += "#"){
+        console.log(chaîne);    
+    }
+    }
+    if (question == "non"){
+        alert("Rohhhh, j'ai trop de patates maintenant");
+    }
+
+    else {
+        alert("Je vous sens comme tiraillé");
+    }
+    </script>
+</body>
+
+</html>
